@@ -126,3 +126,28 @@ img {
 a {
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  .name{
+    font-size: 2.2em;
+  }
+
+  .job{
+    font-size: 1.2em;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .link1 {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+}
